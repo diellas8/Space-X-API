@@ -19,6 +19,6 @@ and scrolling leads you to this:
   Inspect < Toggle Device Toolbar (Ctrl + Shift + M) shows the device form of the program:
 ![mobile](https://user-images.githubusercontent.com/58296399/173208088-092cc5e4-da28-407b-8338-26de798fade3.PNG)
 
-Examples of the roots: 
+Examples of a root: 
                   <br>
 ![roots](https://user-images.githubusercontent.com/58296399/173208115-a5b1bd37-970c-4464-ab27-63df6c753387.PNG)
