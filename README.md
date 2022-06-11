@@ -2,6 +2,7 @@
 
 # Requirements
 To excecute this program 'node js and npm' need to be installed on our machine via the command <b> npm install -g npm </b>.
+<br>
 It also has the 'Eslint' to format the Javascript via <b> npm i eslint <b/>
   
   # Test
