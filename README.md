@@ -14,3 +14,7 @@ We can click on the names on the Header and it will send us to different pages, 
 and scrolling leads you to this:
   
 ![starshipTest](https://user-images.githubusercontent.com/58296399/173208019-7d087bd0-5131-4a1a-82da-910436159c3b.PNG)
+
+  
+  Inspect < Toggle Device Toolbar (Ctrl + Shift + M) shows the device form of the program:
+                  
