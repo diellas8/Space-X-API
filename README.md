@@ -1,4 +1,4 @@
-# Space-X-API
+# Space-X API
 
 # Requirements
 To excecute this program 'node js and npm' need to be installed on our machine via the command <b> npm install -g npm </b>.
