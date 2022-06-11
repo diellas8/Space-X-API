@@ -9,3 +9,7 @@ It also has the 'Eslint' to format the Javascript via <b> npm i eslint <b/>
   
 Now, for testing if the program is responsive we'll go to the <b> http://localhost:3000/<b/>
 We can click on the names on the Header and it will send us to different pages, for example: 
+![startship](https://user-images.githubusercontent.com/58296399/173207997-25c4ce64-3943-48bd-b605-f51cbbab0dab.PNG)
+
+and scrolling leads you to this:
+  
