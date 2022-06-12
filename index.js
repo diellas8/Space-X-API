@@ -1,3 +1,3 @@
-import TopMenu from './TopMenu';
+import Home from './Home';
 
-export default TopMenu;
+export default Home;
