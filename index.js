@@ -1,3 +1,3 @@
-import MenuLinks from './MenuLinks';
+import TopMenu from './TopMenu';
 
-export default MenuLinks;
+export default TopMenu;
