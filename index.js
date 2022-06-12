@@ -1,3 +1,3 @@
-import Home from './Home';
+import Rocket from './Rocket';
 
-export default Home;
+export default Rocket;
