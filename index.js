@@ -1,3 +1,3 @@
-import Loader from './Loader';
+import MenuLinks from './MenuLinks';
 
-export default Loader;
+export default MenuLinks;

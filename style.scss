@@ -1,50 +1,43 @@
-.loader {
-    &__container {
-        height: 100vh;
-        background-color: var(--helper-dark);
-        p {
-            font-size: 3rem;
-            color: var(--main-light);
-        }
-    }
+.nav__button {
+    background-color: transparent;
+    border: none;
 
-    &__dots--animation span {
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        border-radius: 100%;
-        background-color: var(--main-dark);
-        margin: 0px 5px;
-        background-color: var(--main-light);
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    &__icon {
+        width: 30px;
+        height: 2px;
+        border-radius: 5px;
+        background: var(--main-light);
+        transition: all 0.5s ease-in-out;
+        z-index: 2;
     }
-
-    &__dots--animation span:nth-child(1) {
-        animation: bounce 1s ease-in-out infinite;
+    &__icon::before,
+    &__icon::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background: var(--main-light);
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
     }
-
-    &__dots--animation span:nth-child(2) {
-        animation: bounce 1s ease-in-out 0.33s infinite;
+    &__icon::before {
+        transform: translate(-15px, -10px);
     }
-
-    &__dots--animation span:nth-child(3) {
-        animation: bounce 1s ease-in-out 0.66s infinite;
+    &__icon::after {
+        transform: translate(-15px, 10px);
     }
-}
-
-@keyframes bounce {
-    0%,
-    75%,
-    100% {
-        -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-        -o-transform: translateY(0);
-        transform: translateY(0);
+    /* ANIMATION */
+    .open {
+        transform: translateX(-55px);
     }
-
-    25% {
-        -webkit-transform: translateY(-20px);
-        -ms-transform: translateY(-20px);
-        -o-transform: translateY(-20px);
-        transform: translateY(-20px);
+    .open::before {
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+    .open::after {
+        transform: rotate(-45deg) translate(35px, 35px);
     }
 }
